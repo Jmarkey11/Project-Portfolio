@@ -6,6 +6,17 @@
 - **Methods Used:** NMF for pattern extraction, Monte Carlo bootstrap resampling for robustness, cosine similarity clustering, regression analysis, and LCM for improved signature identification.  
 - **Technologies Used:** Python (NumPy, Pandas, Scikit-learn, SciPy, Statsmodels, Seaborn).
 
+### [**Military Aircraft Image Classification Using Custom, Pretrained & Ensemble Deep Learning Models**](https://github.com/Jmarkey11/Military-Aircraft-Image-Classification/tree/main)
+
+- Summary: This project tackles fine-grained image classification across 81 military aircraft classes using the Kaggle Military Aircraft Detection Dataset. It compares the performance of a custom CNN, a custom ResNet-like model, and a pretrained ResNet-18 model, and introduces a Meta MLP ensemble to combine model predictions for improved top-k accuracy.
+- Methods Used: Deep learning (CNNs, ResNet, ensemble MLP), image preprocessing, label smoothing, stratified data splitting, top-k accuracy evaluation, and transfer learning with ImageNet weights.
+- Technologies Used: Python (PyTorch, Torchvision, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
+
+### [**Unprofitable NDIS Charity Detection & Analysis Bot**](https://github.com/Jmarkey11/Unprofitable-NDIS-Charity-Web-Scraping-And-Analysis)
+- Summary: This automation bot identifies unprofitable NDIS-registered charities (net surplus ≤ 4% of revenue) by scraping financial data from the ACNC website, analyzing charity records, and generating detailed HTML reports. The pipeline includes geolocation mapping, database integration, and interactive dashboards to support decision-making.
+- Methods Used: Web scraping with Selenium, Supabase API integration, multi-threaded data collection, financial ratio analysis, geolocation mapping with OpenCage API, and interactive reporting using Plotly and Folium.
+- Technologies Used: Python (Selenium, BeautifulSoup4, Pandas, Plotly, Folium, Supabase, Geopy, Markdown, Glob2)
+
 ### [**Apple Stock Price Prediction Using Ensemble RNN Models**](https://github.com/Jmarkey11/Stock-Price-Prediction-Using-Ensemble-RNN-Models)
 
 - **Summary:** Developed an ensemble model combining RNN, GRU, and LSTM networks to predict Apple’s stock price, leveraging multiple sequence lengths and a Single-Layer Perceptron (SLP) for optimal weighting.  
