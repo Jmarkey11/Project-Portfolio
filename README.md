@@ -1,4 +1,6 @@
-# Data Science Projects
+# Jonathan Markey — Data Science Projects
+
+Welcome to my project portfolio. Below are selected data science and machine learning projects demonstrating my skills in deep learning, NLP, financial analysis, GIS, and simulation modeling. Each project is hosted in its own GitHub repo and includes end-to-end implementation, evaluation, and documentation.
 
 ### [**The Effect of Cosine Similarity on SBS Signature Extraction and Validation via the Linear Combination Model**](https://github.com/Jmarkey11/The-Effect-of-Cosine-Similarity-on-SBS-Signature-Extraction-and-Validation)
 
@@ -41,58 +43,113 @@
 - **Methods Used:** Discrete event simulation modeling order arrivals, service times, and machine failures; exponential and deterministic distributions for timing events; test harness with 30 simulations per reliability factor.  
 - **Technologies Used:** Julia (CSV, Printf, Dates, DataStructures, Distributions, StableRNGs).  
 
-# 💻 Data Science Proficiencies
+---
+# 💻 Data ScienceSkills and Proficiencies
+
+## 🧠 Key Skills at a Glance  
+`Python` · `R` · `SQL` · `Julia` · `Java`  
+`Pandas` · `NumPy` · `Scikit-learn` · `PyTorch` · `Torchvision` · `Transformers` · `SciPy` · `Statsmodels`  
+`CNN` · `RNN` · `GRU` · `MLP` · `ResNet` · `BERT` · `Transfer Learning` · `Ensemble Models` · `Meta Learning`  
+`Regression Analysis` · `Classification` · `Clustering` · `Dimensionality Reduction` · `PCA` · `Cosine Similarity` · `NMF`  
+`Text Preprocessing` · `NER` · `POS Tagging` · `TF-IDF` · `Topic Modeling` · `Coreference Resolution`  
+`Selenium` · `BeautifulSoup4` · `Supabase` · `OpenCage API` · `Glob2`  
+`Matplotlib` · `Seaborn` · `Plotly` · `Folium` · `Markdown` · `Power BI` · `Tableau` · `Jupyter Notebooks`  
+`ArcGIS` · `GeoPandas` · `ArcPy` · `Geopy`  
+`EDA` · `Monte Carlo Resampling` · `Top-k Accuracy` · `Confusion Matrix Analysis`  
+`HTML Report Automation` · `Interactive Dashboards` · `Simulation Modeling`  
+`Analytical Thinking` · `Stakeholder Communication` · `Financial Analysis` · `Team Collaboration`
 
 ### 🛠️ Data Engineering & ETL
-I am proficient in SQL, enabling me to develop and manage large, multi-table databases effectively. My skills include:
-- Executing complex queries and combining tables using various joins.
-- Loading data through views and other tools.
-- Integrating SQL workflows seamlessly with Python and R, leveraging libraries like SQLite3, SQLite Magic, Pandas, and NumPy.
 
-#### Key Techniques:
-- Feature engineering: one-hot encoding, feature multiplication, Principal Component Analysis (PCA), and feature importance evaluation using Scikit-learn and SciPy.
-- Constructing efficient ETL pipelines and preparing datasets tailored for machine learning workflows.
+* Proficient in **SQL** for querying and managing multi-table databases and optimizing queries.
+* Developed custom ETL pipelines using **Python**, **Pandas**, and **NumPy**.
+* Automated data ingestion from external websites using **Selenium** and **BeautifulSoup**.
+* Integrated real-time online databases using **Supabase** for data storage and retrieval.
+* Converted large-scale image datasets into `.pt` tensors to optimize **PyTorch** model training.
+* Experienced in pipeline development across structured, unstructured, and image-based data.
+
+**Tools & Libraries:**
+`SQL · Supabase · Selenium · BeautifulSoup4 · Pandas · NumPy · SQLite · Glob2`
+
 
 ### 🤖 Machine Learning & Predictive Modeling
-I have extensive experience applying singular, stacked, and ensemble machine learning techniques to solve complex problems. Using Python libraries such as Scikit-learn, Pandas, and NumPy, I have developed and optimized models for:
-- **Classification, regression, and clustering.**
 
-#### Expertise:
-- Algorithms: Linear and Logistic Regression, Support Vector Machines (SVMs), K-Nearest Neighbors (KNN), Random Forests, Gradient Boosting, K-Means, and HDBSCAN.
-- Model optimization: Hyperparameter tuning with Grid Search and Random Search.
-- Performance validation: Cross-validation and evaluation metrics for actionable insights.
+* Built classification, regression, and clustering models using **Scikit-learn** and **SciPy**.
+* Implemented **ensemble models** including stacked learners and a Meta MLP for combining deep learning outputs.
+* Applied model optimization techniques such as **hyperparameter tuning** with Grid Search and Random Search.
+* Validated models using **cross-validation**, **top-k accuracy**, and stratified sampling for imbalanced datasets.
 
-### 📚 Natural Language Processing (NLP)
-I possess strong competencies in Natural Language Processing (NLP) techniques, leveraging libraries such as spaCy, NLTK, and Scikit-learn. My expertise includes:
-- Text preprocessing and feature engineering: tokenization, stemming, lemmatization, text normalization, n-grams, TF-IDF, and embeddings.
-- Advanced NLP methods: Named Entity Recognition (NER), Part-of-Speech (POS) tagging, Dependency Parsing, sentiment analysis, Latent Dirichlet Allocation (LDA), and text summarization.
+**Algorithms:**
+`Random Forest · SVM · KNN · Logistic Regression · Gradient Boosting · HDBSCAN · Decision Trees · Naïve Bayes · K-Means`
 
-### Applications:
-- Built tools for question-answering systems, semantic search, sentiment analysis, and summarization, delivering impactful solutions for language-based challenges.
-
-### 🌍 GIS & Spatial Analysis
-I have strong competencies in GIS and spatial analysis, with experience using ArcGIS and GeoPandas for geospatial tasks. My expertise includes:
-- Python programming for geospatial workflows using libraries such as Pandas, NumPy, and ArcPy.
-- Developing and automating ArcGIS scripts to analyze and visualize spatial relationships.
-
-#### Highlights:
-- Designed interactive maps and spatial insights that support decision-making.
-- Integrated ETL processes with geospatial data science methods for diverse applications.
 
 ### 🧠 Deep Learning & Computer Vision
-I have extensive experience with deep learning techniques to develop and train models for various tasks, including:
-- **Classification, regression, computer vision, time series analysis, and NLP.**
 
-#### Expertise:
-- Architectures: Multi-Layer Perceptrons (MLPs), Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs), Gated Recurrent Units (GRUs), and Transformer-based models.
-- Optimization techniques: Dropout, weight decay, batching, batch normalization, learning rate scheduling, early stopping, and validation.
-- Tools: PyTorch with CUDA for accelerated computations.
+* Designed and trained custom CNN and ResNet-like architectures in **PyTorch**.
+* Used **transfer learning** with pretrained **ResNet-18** for fine-grained image classification (81 aircraft classes).
+* Built a **Meta MLP ensemble model** to combine softmax outputs and improve Top-5 accuracy.
+* Applied regularization and optimization techniques: **dropout**, **batch normalization**, **label smoothing**, **early stopping**, **learning rate scheduling**, and **weight decay**.
 
-### 📊 Data Visualization & Communication
-I specialize in creating impactful data visualizations and storytelling using libraries and tools such as:
-- **Matplotlib, Seaborn, Plotly, and Power BI.**
+**Architectures & Tools:**
+`CNN · RNN · GRU · MLP · Transformer Models · PyTorch · Torchvision · CUDA`
 
-### Key Skills:
-- Transforming complex datasets into interactive insights.
-- Developing comprehensive dashboards and interactive plots.
-- Effectively conveying trends, correlations, and predictions to both technical and non-technical audiences.
+
+### 📚 Natural Language Processing (NLP)
+
+* Built end-to-end pipelines using **SpaCy**, **NLTK**, and **Scikit-learn** for text analysis and information retrieval.
+* Preprocessed raw text using tokenization, lemmatization, stemming, stopword removal, and **TF-IDF**.
+* Applied advanced techniques: **Named Entity Recognition (NER)**, **POS tagging**, **Dependency Parsing**, and **Coreference Resolution**.
+* Developed QA systems and compared classical IR techniques with transformer-based models like **BERT**.
+
+**Applications:**
+`Text Classification · Semantic Search · Summarization · Sentiment Analysis · Topic Modeling`
+
+
+### 🌍 GIS & Spatial Analysis
+
+* Experienced with **ArcGIS**, **ArcPy**, and **GeoPandas** for geospatial workflows.
+* Created interactive geospatial visualizations using **Folium** and **Geopy**.
+* Automated geolocation mapping with **OpenCage API** to enrich scraped charity datasets.
+* Performed spatial joins and visualized location-based insights to support decision-making.
+
+**Libraries & Tools:**
+`ArcPy · GeoPandas · Folium · OpenCage · Geopy · Pandas · NumPy`
+
+
+### 📊 Data Visualization & Dashboards
+
+* Built static and interactive visualizations using **Matplotlib**, **Seaborn**, and **Plotly**.
+* Designed HTML dashboards and dynamic reports using **Markdown**, **Plotly**, and **Folium**.
+* Experienced in developing business-ready dashboards using **Power BI** and **Tableau**.
+* Communicated technical insights using **classification reports**, **confusion matrices**, **top-k accuracy plots**, and **geographic maps**.
+
+**Tools:**
+`Matplotlib · Seaborn · Plotly · Power BI · Tableau · Markdown · Jupyter Notebooks`
+
+
+### 🧮 Statistical Analysis & Feature Engineering
+
+* Performed statistical modelling, data cleaning, exploratory data analysis, and feature engineering.
+* Applied dimensionality reduction techniques like **PCA** and evaluated **feature importance**.
+* Used **regression analysis**, **cosine similarity**, and **cluster evaluation** (e.g. silhouette width) in research projects.
+
+**Techniques:**
+`EDA · PCA · Cosine Similarity · Monte Carlo Resampling · NMF · Clustering Evaluation`
+
+
+### 🧾 Business & Financial Analysis
+
+* Strong background in financial analysis and reporting from prior experience in accounting.
+* Built automated financial reporting systems to evaluate **NDIS charity profitability** (Net Surplus ≤ 4%).
+* Applied **financial ratio analysis** to assess organizational sustainability.
+* Communicated insights through clear stakeholder-ready outputs (dashboards, HTML reports, CSV exports).
+
+**Skills:**
+`Financial Modelling · Ratio Analysis · Automated Reporting · Stakeholder Communication`
+
+
+### 🤝 Soft Skills & Communication
+
+* Strong **analytical thinking**, **communication**, and **team collaboration** skills.
+* Comfortable translating technical results for non-technical stakeholders.
+* Experienced in producing clear documentation and visual storytelling for varied audiences.
