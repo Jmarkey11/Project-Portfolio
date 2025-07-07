@@ -44,7 +44,7 @@ Welcome to my project portfolio. Below are selected data science and machine lea
 - **Technologies Used:** Julia (CSV, Printf, Dates, DataStructures, Distributions, StableRNGs).  
 
 ---
-# 💻 Data ScienceSkills and Proficiencies
+# 💻 Data Science Skills and Proficiencies
 
 ## 🧠 Key Skills at a Glance  
 `Python` · `R` · `SQL` · `Julia` · `Java`  
